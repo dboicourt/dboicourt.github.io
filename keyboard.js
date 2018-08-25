@@ -683,7 +683,7 @@ function capitalize() {
     else{
         button1.src = "!.jpeg";
         button2.src = "At.jpeg";
-        button3.src = "#.jpeg";
+        button3.src = "Hash.jpeg";
         button4.src = "$.jpeg";
         button5.src = "%.jpeg";
         button6.src = "Up.jpeg";
