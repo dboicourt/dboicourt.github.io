@@ -35,6 +35,14 @@ let button7 = document.getElementById("button7");
 let button8 = document.getElementById("button8");
 let button9 = document.getElementById("button9");
 let button0 = document.getElementById("button0");
+let buttonCom = document.getElementById("button,");
+let buttonPer = document.getElementById("button.");
+let buttonSemi = document.getElementById("button;");
+let buttonApo = document.getElementById("button'");
+let buttonEqu = document.getElementById("button=");
+let buttonDsh = document.getElementById("button-");
+let buttonForSla = document.getElementById("button/");
+let buttonCapLck = document.getElementById("buttonCapLck");
 let del = document.getElementById("buttonDel");
 let spc = document.getElementById("buttonSpc");
 let displayText = [];
@@ -307,3 +315,60 @@ function addSpc(){
     console.log(result);
 }
 spc.addEventListener('click',addSpc);
+function addPer(){
+    displayText.push(".");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonPer.addEventListener('click',addPer);
+function addCom(){
+    displayText.push(",");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonCom.addEventListener('click',addCom);
+function addForSla(){
+    displayText.push("/");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonForSla.addEventListener('click',addForSla);
+function addSemi(){
+    displayText.push(";");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonSemi.addEventListener('click',addSemi);
+function addApo(){
+    displayText.push("'");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonApo.addEventListener('click',addApo);
+function addEqu(){
+    displayText.push("=");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonEqu.addEventListener('click',addEqu);
+function addDsh(){
+    displayText.push("-");
+    let result = displayText.join('');
+    text.placeholder = result;
+    console.log(result);
+}
+buttonDsh.addEventListener('click',addDsh);
+function capitalize(){
+    if(buttonCapLck.value === true)
+    (buttonCapLck.value = false)
+    else if(buttonCapLck.value === false)
+    (buttonCapLck.value = true);
+    console.log(buttonCapLck.value);
+}
+buttonCapLck.addEventListener('click',capitalize);
