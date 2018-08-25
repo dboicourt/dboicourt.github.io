@@ -3,7 +3,9 @@
     border-color: black;
     background-color: rgb(27, 26, 26);
     border-radius: 12px;
-    margin: auto;
+    width: 62%;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 
 .commonstyle { 
@@ -11,7 +13,7 @@
     margin-top: 10px;
     height: 50px;
     width: 50px;
-    background-color: transparent;
+    background-color: rgb(114, 87, 87);
     border: none;
 }
 
@@ -20,10 +22,11 @@
     box-shadow: 0px 0px 10px red;
 }
 
-numRow {
-    white-space: normal;
+.spaceRow {
+    margin-bottom: 10px;
 }
 
-spaceRow {
-    margin-bottom: 10px;
+.space {
+    width: 290px;
+    margin-left: 30%
 }
