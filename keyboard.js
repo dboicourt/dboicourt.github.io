@@ -685,7 +685,7 @@ function capitalize() {
         button2.src = "At.jpeg";
         button3.src = "Hash.jpeg";
         button4.src = "$.jpeg";
-        button5.src = "%.jpeg";
+        button5.src = "Percent.jpeg";
         button6.src = "Up.jpeg";
         button7.src = "And.jpeg";
         button8.src = "Ast.jpeg";
