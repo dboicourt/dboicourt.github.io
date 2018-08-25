@@ -50,7 +50,7 @@ if (text.value === '') {
     text.placeholder = "Your Text Here";
 }
 function addA() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("a");
         let result = displayText.join('');
         text.value = result;
@@ -64,7 +64,7 @@ function addA() {
 }
 buttonA.addEventListener('click', addA);
 function addB() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("b");
         let result = displayText.join('');
         text.value = result;
@@ -78,7 +78,7 @@ function addB() {
 }
 buttonB.addEventListener('click', addB);
 function addC() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("c");
         let result = displayText.join('');
         text.value = result;
@@ -92,7 +92,7 @@ function addC() {
 }
 buttonC.addEventListener('click', addC);
 function addD() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("d");
         let result = displayText.join('');
         text.value = result;
@@ -106,7 +106,7 @@ function addD() {
 }
 buttonD.addEventListener('click', addD);
 function addE() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("e");
         let result = displayText.join('');
         text.value = result;
@@ -120,7 +120,7 @@ function addE() {
 }
 buttonE.addEventListener('click', addE);
 function addF() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("f");
         let result = displayText.join('');
         text.value = result;
@@ -134,7 +134,7 @@ function addF() {
 }
 buttonF.addEventListener('click', addF);
 function addG() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("g");
         let result = displayText.join('');
         text.value = result;
@@ -148,7 +148,7 @@ function addG() {
 }
 buttonG.addEventListener('click', addG);
 function addH() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("h");
         let result = displayText.join('');
         text.value = result;
@@ -162,7 +162,7 @@ function addH() {
 }
 buttonH.addEventListener('click', addH);
 function addI() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("i");
         let result = displayText.join('');
         text.value = result;
@@ -176,7 +176,7 @@ function addI() {
 }
 buttonI.addEventListener('click', addI);
 function addJ() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("j");
         let result = displayText.join('');
         text.value = result;
@@ -190,7 +190,7 @@ function addJ() {
 }
 buttonJ.addEventListener('click', addJ);
 function addK() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("k");
         let result = displayText.join('');
         text.value = result;
@@ -204,7 +204,7 @@ function addK() {
 }
 buttonK.addEventListener('click', addK);
 function addL() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("l");
         let result = displayText.join('');
         text.value = result;
@@ -218,7 +218,7 @@ function addL() {
 }
 buttonL.addEventListener('click', addL);
 function addM() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("m");
         let result = displayText.join('');
         text.value = result;
@@ -232,7 +232,7 @@ function addM() {
 }
 buttonM.addEventListener('click', addM);
 function addN() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("n");
         let result = displayText.join('');
         text.value = result;
@@ -246,7 +246,7 @@ function addN() {
 }
 buttonN.addEventListener('click', addN);
 function addO() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("o");
         let result = displayText.join('');
         text.value = result;
@@ -260,7 +260,7 @@ function addO() {
 }
 buttonO.addEventListener('click', addO);
 function addP() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("p");
         let result = displayText.join('');
         text.value = result;
@@ -274,7 +274,7 @@ function addP() {
 }
 buttonP.addEventListener('click', addP);
 function addQ() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("q");
         let result = displayText.join('');
         text.value = result;
@@ -288,7 +288,7 @@ function addQ() {
 }
 buttonQ.addEventListener('click', addQ);
 function addR() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("r");
         let result = displayText.join('');
         text.value = result;
@@ -302,7 +302,7 @@ function addR() {
 }
 buttonR.addEventListener('click', addR);
 function addS() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("s");
         let result = displayText.join('');
         text.value = result;
@@ -316,7 +316,7 @@ function addS() {
 }
 buttonS.addEventListener('click', addS);
 function addT() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("t");
         let result = displayText.join('');
         text.value = result;
@@ -330,7 +330,7 @@ function addT() {
 }
 buttonT.addEventListener('click', addT);
 function addU() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("u");
         let result = displayText.join('');
         text.value = result;
@@ -344,7 +344,7 @@ function addU() {
 }
 buttonU.addEventListener('click', addU);
 function addV() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("v");
         let result = displayText.join('');
         text.value = result;
@@ -358,7 +358,7 @@ function addV() {
 }
 buttonV.addEventListener('click', addV);
 function addW() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("w");
         let result = displayText.join('');
         text.value = result;
@@ -372,7 +372,7 @@ function addW() {
 }
 buttonW.addEventListener('click', addW);
 function addX() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("x");
         let result = displayText.join('');
         text.value = result;
@@ -386,7 +386,7 @@ function addX() {
 }
 buttonX.addEventListener('click', addX);
 function addY() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("y");
         let result = displayText.join('');
         text.value = result;
@@ -400,7 +400,7 @@ function addY() {
 }
 buttonY.addEventListener('click', addY);
 function addZ() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("z");
         let result = displayText.join('');
         text.value = result;
@@ -414,7 +414,7 @@ function addZ() {
 }
 buttonZ.addEventListener('click', addZ);
 function add1() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("1");
         let result = displayText.join('');
         text.value = result;
@@ -428,7 +428,7 @@ function add1() {
 }
 button1.addEventListener('click', add1);
 function add2() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("2");
         let result = displayText.join('');
         text.value = result;
@@ -442,7 +442,7 @@ function add2() {
 }
 button2.addEventListener('click', add2);
 function add3() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("3");
         let result = displayText.join('');
         text.value = result;
@@ -456,7 +456,7 @@ function add3() {
 }
 button3.addEventListener('click', add3);
 function add4() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("4");
         let result = displayText.join('');
         text.value = result;
@@ -470,7 +470,7 @@ function add4() {
 }
 button4.addEventListener('click', add4);
 function add5() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("5");
         let result = displayText.join('');
         text.value = result;
@@ -484,7 +484,7 @@ function add5() {
 }
 button5.addEventListener('click', add5);
 function add6() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("6");
         let result = displayText.join('');
         text.value = result;
@@ -498,7 +498,7 @@ function add6() {
 }
 button6.addEventListener('click', add6);
 function add7() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("7");
         let result = displayText.join('');
         text.value = result;
@@ -512,7 +512,7 @@ function add7() {
 }
 button7.addEventListener('click', add7);
 function add8() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("8");
         let result = displayText.join('');
         text.value = result;
@@ -526,7 +526,7 @@ function add8() {
 }
 button8.addEventListener('click', add8);
 function add9() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("9");
         let result = displayText.join('');
         text.value = result;
@@ -540,7 +540,7 @@ function add9() {
 }
 button9.addEventListener('click', add9);
 function add0() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("0");
         let result = displayText.join('');
         text.value = result;
@@ -568,7 +568,7 @@ function addSpc() {
 }
 spc.addEventListener('click', addSpc);
 function addPer() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push(".");
         let result = displayText.join('');
         text.value = result;
@@ -582,7 +582,7 @@ function addPer() {
 }
 buttonPer.addEventListener('click', addPer);
 function addCom() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push(",");
         let result = displayText.join('');
         text.value = result;
@@ -596,7 +596,7 @@ function addCom() {
 }
 buttonCom.addEventListener('click', addCom);
 function addForSla() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("/");
         let result = displayText.join('');
         text.value = result;
@@ -610,7 +610,7 @@ function addForSla() {
 }
 buttonForSla.addEventListener('click', addForSla);
 function addSemi() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push(";");
         let result = displayText.join('');
         text.value = result;
@@ -624,7 +624,7 @@ function addSemi() {
 }
 buttonSemi.addEventListener('click', addSemi);
 function addApo() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("'");
         let result = displayText.join('');
         text.value = result;
@@ -638,7 +638,7 @@ function addApo() {
 }
 buttonApo.addEventListener('click', addApo);
 function addEqu() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("=");
         let result = displayText.join('');
         text.value = result;
@@ -652,7 +652,7 @@ function addEqu() {
 }
 buttonEqu.addEventListener('click', addEqu);
 function addDsh() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
+    if (buttonCapLck.classList.contains("cap")) {
         displayText.push("-");
         let result = displayText.join('');
         text.value = result;
@@ -666,11 +666,11 @@ function addDsh() {
 }
 buttonDsh.addEventListener('click', addDsh);
 function capitalize() {
-    if (buttonCapLck.innerHTML === "Caps Lock Off") {
-        (buttonCapLck.innerHTML = "Caps Lock On");
+    if (buttonCapLck.classList.contains("cap")) {
+        (buttonCapLck.classList.remove("cap"));
     }
-    else if (buttonCapLck.innerHTML === "Caps Lock On") {
-        (buttonCapLck.innerHTML = "Caps Lock Off");
+    else{
+        (buttonCapLck.classList.add("cap"));
     }
     console.log(buttonCapLck.innerHTML);
 }
