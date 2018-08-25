@@ -53,12 +53,12 @@ function addA() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("a");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("A");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -67,12 +67,12 @@ function addB() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("b");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("B");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -81,12 +81,12 @@ function addC() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("c");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("C");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -95,12 +95,12 @@ function addD() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("d");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("D");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -109,12 +109,12 @@ function addE() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("e");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("E");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -123,12 +123,12 @@ function addF() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("f");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("F");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -137,12 +137,12 @@ function addG() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("g");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("G");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -151,12 +151,12 @@ function addH() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("h");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("H");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -165,12 +165,12 @@ function addI() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("i");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("I");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -179,12 +179,12 @@ function addJ() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("j");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("J");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -193,12 +193,12 @@ function addK() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("k");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("K");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -207,12 +207,12 @@ function addL() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("l");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("L");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -221,12 +221,12 @@ function addM() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("m");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("M");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -235,12 +235,12 @@ function addN() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("n");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("N");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -249,12 +249,12 @@ function addO() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("o");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("O");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -263,12 +263,12 @@ function addP() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("p");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("P");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -277,12 +277,12 @@ function addQ() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("q");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("Q");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -291,12 +291,12 @@ function addR() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("r");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("R");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -305,12 +305,12 @@ function addS() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("s");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("S");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -319,12 +319,12 @@ function addT() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("t");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("T");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -333,12 +333,12 @@ function addU() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("u");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("U");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -347,12 +347,12 @@ function addV() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("v");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("V");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -361,12 +361,12 @@ function addW() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("w");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("W");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -375,12 +375,12 @@ function addX() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("x");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("X");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -389,12 +389,12 @@ function addY() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("y");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("Y");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -403,12 +403,12 @@ function addZ() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("z");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("Z");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -417,12 +417,12 @@ function add1() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("1");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("!");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -431,12 +431,12 @@ function add2() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("2");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("@");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -445,12 +445,12 @@ function add3() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("3");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("#");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -459,12 +459,12 @@ function add4() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("4");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("$");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -473,12 +473,12 @@ function add5() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("5");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("%");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -487,12 +487,12 @@ function add6() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("6");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("^");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -501,12 +501,12 @@ function add7() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("7");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("&");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -515,12 +515,12 @@ function add8() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("8");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("*");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -529,12 +529,12 @@ function add9() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("9");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("(");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -543,12 +543,12 @@ function add0() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("0");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push(")");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -556,14 +556,14 @@ button0.addEventListener('click', add0);
 function delText() {
     displayText.pop();
     let result = displayText.join('');
-    text.placeholder = result;
+    text.value = result;
     console.log(result);
 }
 del.addEventListener('click', delText);
 function addSpc() {
     displayText.push(" ");
     let result = displayText.join('');
-    text.placeholder = result;
+    text.value = result;
     console.log(result);
 }
 spc.addEventListener('click', addSpc);
@@ -571,12 +571,12 @@ function addPer() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push(".");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push(">");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -585,12 +585,12 @@ function addCom() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push(",");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("<");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -599,12 +599,12 @@ function addForSla() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("/");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("?");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -613,12 +613,12 @@ function addSemi() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push(";");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push(":");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -627,12 +627,12 @@ function addApo() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("'");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("\"");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -641,12 +641,12 @@ function addEqu() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("=");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("+");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
@@ -655,12 +655,12 @@ function addDsh() {
     if (buttonCapLck.innerHTML === "Caps Lock Off") {
         displayText.push("-");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     } else {
         displayText.push("_");
         let result = displayText.join('');
-        text.placeholder = result;
+        text.value = result;
         console.log(result);
     }
 }
