@@ -415,12 +415,13 @@ function addZ() {
 buttonZ.addEventListener('click', addZ);
 function add1() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("1");
+        displayText.push("!");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("!");
+        
+        displayText.push("1");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -667,9 +668,29 @@ function addDsh() {
 buttonDsh.addEventListener('click', addDsh);
 function capitalize() {
     if (buttonCapLck.classList.contains("cap")) {
+        button1.src = "1.jpeg";
+        button2.src = "2.jpeg";
+        button3.src = "3.jpeg";
+        button4.src = "4.jpeg";
+        button5.src = "5.jpeg";
+        button6.src = "6.jpeg";
+        button7.src = "7.jpeg";
+        button8.src = "8.jpeg";
+        button9.src = "9.jpeg";
+        button0.src = "0.jpeg";
         (buttonCapLck.classList.remove("cap"));
     }
     else{
+        button1.src = "!.jpeg";
+        button2.src = "At.jpeg";
+        button3.src = "#.jpeg";
+        button4.src = "$.jpeg";
+        button5.src = "%.jpeg";
+        button6.src = "Up.jpeg";
+        button7.src = "And.jpeg";
+        button8.src = "Ast.jpeg";
+        button9.src = "P1.jpeg";
+        button0.src = "P2.jpeg";
         (buttonCapLck.classList.add("cap"));
     }
     console.log(buttonCapLck.innerHTML);
