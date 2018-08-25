@@ -51,12 +51,12 @@ if (text.value === '') {
 }
 function addA() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("a");
+        displayText.push("A");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("A");
+        displayText.push("a");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -65,12 +65,12 @@ function addA() {
 buttonA.addEventListener('click', addA);
 function addB() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("b");
+        displayText.push("B");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("B");
+        displayText.push("b");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -79,12 +79,12 @@ function addB() {
 buttonB.addEventListener('click', addB);
 function addC() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("c");
+        displayText.push("C");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("C");
+        displayText.push("c");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -93,12 +93,12 @@ function addC() {
 buttonC.addEventListener('click', addC);
 function addD() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("d");
+        displayText.push("D");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("D");
+        displayText.push("d");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -107,12 +107,12 @@ function addD() {
 buttonD.addEventListener('click', addD);
 function addE() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("e");
+        displayText.push("E");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("E");
+        displayText.push("e");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -121,12 +121,12 @@ function addE() {
 buttonE.addEventListener('click', addE);
 function addF() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("f");
+        displayText.push("F");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("F");
+        displayText.push("f");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -135,12 +135,12 @@ function addF() {
 buttonF.addEventListener('click', addF);
 function addG() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("g");
+        displayText.push("G");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("G");
+        displayText.push("g");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -149,12 +149,12 @@ function addG() {
 buttonG.addEventListener('click', addG);
 function addH() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("h");
+        displayText.push("H");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("H");
+        displayText.push("h");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -163,12 +163,12 @@ function addH() {
 buttonH.addEventListener('click', addH);
 function addI() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("i");
+        displayText.push("I");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("I");
+        displayText.push("i");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -177,12 +177,12 @@ function addI() {
 buttonI.addEventListener('click', addI);
 function addJ() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("j");
+        displayText.push("J");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("J");
+        displayText.push("j");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -191,12 +191,12 @@ function addJ() {
 buttonJ.addEventListener('click', addJ);
 function addK() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("k");
+        displayText.push("K");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("K");
+        displayText.push("k");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -205,12 +205,12 @@ function addK() {
 buttonK.addEventListener('click', addK);
 function addL() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("l");
+        displayText.push("L");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("L");
+        displayText.push("l");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -219,12 +219,12 @@ function addL() {
 buttonL.addEventListener('click', addL);
 function addM() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("m");
+        displayText.push("M");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("M");
+        displayText.push("m");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -233,12 +233,12 @@ function addM() {
 buttonM.addEventListener('click', addM);
 function addN() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("n");
+        displayText.push("N");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("N");
+        displayText.push("n");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -247,12 +247,12 @@ function addN() {
 buttonN.addEventListener('click', addN);
 function addO() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("o");
+        displayText.push("O");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("O");
+        displayText.push("o");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -261,12 +261,12 @@ function addO() {
 buttonO.addEventListener('click', addO);
 function addP() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("p");
+        displayText.push("P");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("P");
+        displayText.push("p");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -275,12 +275,12 @@ function addP() {
 buttonP.addEventListener('click', addP);
 function addQ() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("q");
+        displayText.push("Q");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("Q");
+        displayText.push("q");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -289,12 +289,12 @@ function addQ() {
 buttonQ.addEventListener('click', addQ);
 function addR() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("r");
+        displayText.push("R");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("R");
+        displayText.push("r");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -303,12 +303,12 @@ function addR() {
 buttonR.addEventListener('click', addR);
 function addS() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("s");
+        displayText.push("S");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("S");
+        displayText.push("s");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -317,12 +317,12 @@ function addS() {
 buttonS.addEventListener('click', addS);
 function addT() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("t");
+        displayText.push("T");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("T");
+        displayText.push("t");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -331,12 +331,12 @@ function addT() {
 buttonT.addEventListener('click', addT);
 function addU() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("u");
+        displayText.push("U");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("U");
+        displayText.push("u");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -345,12 +345,12 @@ function addU() {
 buttonU.addEventListener('click', addU);
 function addV() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("v");
+        displayText.push("V");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("V");
+        displayText.push("v");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -359,12 +359,12 @@ function addV() {
 buttonV.addEventListener('click', addV);
 function addW() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("w");
+        displayText.push("W");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("W");
+        displayText.push("w");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -373,12 +373,12 @@ function addW() {
 buttonW.addEventListener('click', addW);
 function addX() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("x");
+        displayText.push("X");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("X");
+        displayText.push("x");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -387,12 +387,12 @@ function addX() {
 buttonX.addEventListener('click', addX);
 function addY() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("y");
+        displayText.push("Y");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("Y");
+        displayText.push("y");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
@@ -401,12 +401,12 @@ function addY() {
 buttonY.addEventListener('click', addY);
 function addZ() {
     if (buttonCapLck.classList.contains("cap")) {
-        displayText.push("z");
+        displayText.push("Z");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
     } else {
-        displayText.push("Z");
+        displayText.push("z");
         let result = displayText.join('');
         text.value = result;
         console.log(result);
