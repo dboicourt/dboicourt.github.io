@@ -574,7 +574,7 @@ function addPer() {
         text.placeholder = result;
         console.log(result);
     } else {
-        displayText.push("");
+        displayText.push(">");
         let result = displayText.join('');
         text.placeholder = result;
         console.log(result);
