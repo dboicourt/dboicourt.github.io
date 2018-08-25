@@ -675,3 +675,127 @@ function capitalize() {
     console.log(buttonCapLck.innerHTML);
 }
 buttonCapLck.addEventListener('click', capitalize);
+
+
+
+// calculator Add - add two numbers
+function add(a, b){
+    if((typeof a !== "number") || (typeof b !== "number")) {
+        return "Enter a number";
+    }
+    let stringA = a.toString();
+    let stringB = b.toString();
+    let rightHS = stringA + " + " + stringB + " = ";
+    let leftHS = a + b;
+    return rightHS + leftHS;
+}
+
+
+// calculator Subtract - subtract two numbers
+function subtract(a, b){
+    if((typeof a !== "number") || (typeof b !== "number")) {
+        return "Enter a number";
+    }
+    let stringA = a.toString();
+    let stringB = b.toString();
+    let rightHS = stringA + " - " + stringB + " = ";
+    let leftHS = a - b;
+    return rightHS + leftHS;
+}
+
+
+//calculator Multiply - multiply two numbers
+function multiply(a, b){
+    if((typeof a !== "number") || (typeof b !== "number")) {
+        return "Enter a number";
+    }
+    let stringA = a.toString();
+    let stringB = b.toString();
+    let rightHS = stringA + " * " + stringB + " = ";
+    let leftHS = a * b;
+    return rightHS + leftHS;
+}
+
+
+//calculator Divide - divide two numbers
+function divide(a, b){
+    if((typeof a !== "number") || (typeof b !== "number")) {
+        return "Enter a number";
+    }
+    let stringA = a.toString();
+    let stringB = b.toString();
+    let rightHS = stringA + " / " + stringB + " = ";
+    let leftHS = a / b;
+    return rightHS + leftHS;
+}
+
+
+//calculator Square - square a number
+function square(int){
+    if(typeof int !== "number"){
+        return "Enter a number";
+    }
+    let stringInt = int.toString();
+    let rightHS = stringInt + " * " + stringInt + " = ";
+    let leftHS = int * int;
+    return rightHS + leftHS;
+}
+
+
+//calculator Sqrt - square root a number
+function sqrt(int){
+    if(typeof int !== "number"){
+        return "Enter a number";
+    }
+    let rightHS = "sqrt(" + int + ")" + " = ";
+    let leftHS = Math.sqrt(int);
+    return rightHS + leftHS;
+}
+
+
+//calculator Abs - absolute value of a number
+function abs(int){
+    if(typeof int !== "number"){
+        return "Enter a number";
+    }
+    let rightHS = "|" + int + "|" + " = ";
+    let leftHS = Math.abs(int);
+    return rightHS + leftHS;
+}
+
+
+//calculator randomFloat - creates a random float number between 0 and max
+function randomFloat(max){
+    if(typeof max === "number"){
+        return Math.random() * max;
+    }
+    return "Enter a number";
+}
+
+
+//calculator randomInteger - creates a random integer number between 0 and max
+function randomInteger(max){
+    if(typeof max === "number"){
+        return Math.floor(Math.random() * max);
+    }
+    return "Enter a number";
+}
+
+
+//calculator roundDown - rounds a given number down to next whole number
+function roundDown(int){
+    if(typeof int !== "number"){
+        return "Enter a number";
+    }
+    return Math.floor(int);
+}
+
+
+//calculator roundUp - rounds a given number down to next whole number
+function roundUp(int){
+    if(typeof int !== "number"){
+        return "Enter a number";
+    }
+    return Math.ceil(int);
+}
+
